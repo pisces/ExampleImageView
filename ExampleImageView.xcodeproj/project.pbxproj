@@ -15,9 +15,9 @@
 		2345ACFC1E305DA200E2CB2F /* ExampleImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345ACFB1E305DA200E2CB2F /* ExampleImageViewTests.swift */; };
 		2345AD071E305DA200E2CB2F /* ExampleImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345AD061E305DA200E2CB2F /* ExampleImageViewUITests.swift */; };
 		2345AD151E305EB900E2CB2F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345AD141E305EB900E2CB2F /* Models.swift */; };
-		2345AD181E30676300E2CB2F /* screen696x696.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2345AD161E30676300E2CB2F /* screen696x696.jpg */; };
-		2345AD191E30676300E2CB2F /* screen696x696_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2345AD171E30676300E2CB2F /* screen696x696_thumb.jpg */; };
 		2345AD1B1E306AED00E2CB2F /* ExampleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345AD1A1E306AED00E2CB2F /* ExampleImageView.swift */; };
+		2345AD241E30A28900E2CB2F /* screen696x696.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2345AD221E30A28900E2CB2F /* screen696x696.jpg */; };
+		2345AD251E30A28900E2CB2F /* screen696x696_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2345AD231E30A28900E2CB2F /* screen696x696_thumb.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +52,9 @@
 		2345AD061E305DA200E2CB2F /* ExampleImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleImageViewUITests.swift; sourceTree = "<group>"; };
 		2345AD081E305DA200E2CB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2345AD141E305EB900E2CB2F /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		2345AD161E30676300E2CB2F /* screen696x696.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = screen696x696.jpg; path = ../../../../../Desktop/screen696x696.jpg; sourceTree = "<group>"; };
-		2345AD171E30676300E2CB2F /* screen696x696_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = screen696x696_thumb.jpg; path = ../../../../../Desktop/screen696x696_thumb.jpg; sourceTree = "<group>"; };
 		2345AD1A1E306AED00E2CB2F /* ExampleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleImageView.swift; sourceTree = "<group>"; };
+		2345AD221E30A28900E2CB2F /* screen696x696.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen696x696.jpg; sourceTree = "<group>"; };
+		2345AD231E30A28900E2CB2F /* screen696x696_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen696x696_thumb.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +111,9 @@
 				2345ACEA1E305DA200E2CB2F /* Main.storyboard */,
 				2345ACED1E305DA200E2CB2F /* Assets.xcassets */,
 				2345ACEF1E305DA200E2CB2F /* LaunchScreen.storyboard */,
+				2345AD221E30A28900E2CB2F /* screen696x696.jpg */,
+				2345AD231E30A28900E2CB2F /* screen696x696_thumb.jpg */,
 				2345ACF21E305DA200E2CB2F /* Info.plist */,
-				2345AD161E30676300E2CB2F /* screen696x696.jpg */,
-				2345AD171E30676300E2CB2F /* screen696x696_thumb.jpg */,
 				2345AD1A1E306AED00E2CB2F /* ExampleImageView.swift */,
 			);
 			path = ExampleImageView;
@@ -246,9 +246,9 @@
 			files = (
 				2345ACF11E305DA200E2CB2F /* LaunchScreen.storyboard in Resources */,
 				2345ACEE1E305DA200E2CB2F /* Assets.xcassets in Resources */,
-				2345AD181E30676300E2CB2F /* screen696x696.jpg in Resources */,
+				2345AD241E30A28900E2CB2F /* screen696x696.jpg in Resources */,
 				2345ACEC1E305DA200E2CB2F /* Main.storyboard in Resources */,
-				2345AD191E30676300E2CB2F /* screen696x696_thumb.jpg in Resources */,
+				2345AD251E30A28900E2CB2F /* screen696x696_thumb.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +519,7 @@
 				2345AD0D1E305DA200E2CB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2345AD0E1E305DA200E2CB2F /* Build configuration list for PBXNativeTarget "ExampleImageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +528,7 @@
 				2345AD101E305DA200E2CB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2345AD111E305DA200E2CB2F /* Build configuration list for PBXNativeTarget "ExampleImageViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +537,7 @@
 				2345AD131E305DA200E2CB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
